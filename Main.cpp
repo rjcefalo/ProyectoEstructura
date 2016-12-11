@@ -1,12 +1,10 @@
-#include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
-#include "Logaritmobase2.h"
+#include <stdio.h>
+#include "Modulo2.h"
+
 
 void main(){
-	float x = LogBase2(256);
-
-	printf("%f\n", x);
-
+	lista *p=NULL;
+	calculoMapeoDirecto(&p);
 	system("pause");
 }
